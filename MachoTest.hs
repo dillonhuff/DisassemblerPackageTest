@@ -25,4 +25,3 @@ main = do
 strToWord8 :: String -> [Word8]
 strToWord8 = BS.unpack . Ch.pack
 
-
